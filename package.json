@@ -1,8 +1,8 @@
 {
-  "name": "open-gas-price",
+  "name": "ds-gas",
   "version": "0.1.0",
-  "private": true,
-  "description": "",
+  "private": false,
+  "description": "ethereum gas pricing for DApps",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
@@ -48,15 +48,15 @@
     "typescript": "4.6.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/manifoldfinance/open-gas-price.git"
   },
-  "keywords": [],
+  "keywords": ["etheruem", "dapps", "gas pricing", "gwei"],
   "author": "SEE CONTRIBUTORS",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "Apache-2.-",
   "bugs": {
     "url": "https://github.com/manifoldfinance/open-gas-price/issues"
   },
