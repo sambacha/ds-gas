@@ -1,17 +1,17 @@
-[Open Gas Price](README.md) 
+---
+title: DS-Gas
+version: v0.1.0
+license: Apache-2.0
+---
 
-# Open Gas Price API
+# [ds-gas](README.md) 
 
-> WIP
+> *a decentralized transaction cost pricing service for ethereum/evm's*
 
 
 ## Overview
 
-> TODO
-
-## Quickstart
-
-> TODO
+`ds-gas` provides a service for dapps to accurately price gas costs for transactions in a decentralized and verifiable way
 
 ### Namespaces
 
