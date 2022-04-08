@@ -11,7 +11,18 @@ license: Apache-2.0
 
 ## Overview
 
-`ds-gas` provides a service for dapps to accurately price gas costs for transactions in a decentralized and verifiable way
+`ds-gas` provides a service for dapps to accurately price gas costs for transactions in a decentralized and verifiable way.
+
+It provides:
+
+- Network Congestion Weight
+- Network Status Information
+- Historical Gas Pricing 
+
+#### Planned Features
+
+- mempool observability for transaction pricing based upon user submited transaction replacements
+- rust
 
 ### Namespaces
 
